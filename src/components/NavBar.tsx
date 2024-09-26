@@ -21,7 +21,7 @@ export default function NavBar({
     <nav aria-label="Main navigation">
       <ul className="flex flex-col justify-between rounded-b-lg bg-slate-50 px-4 py-2 md:m-4 md:flex-row md:items-center md:rounded-xl">
         <div className="flex items-center justify-between">
-          <NameLogo name={settings.data.name} />
+          <NameLogo name={"Dennis Lee"} />
           <button
             aria-expanded={open}
             aria-label="Open menu"
@@ -96,13 +96,21 @@ export default function NavBar({
 }
 
 function NameLogo({ name }: { name: KeyTextField }) {
+  // 將名稱按換行符號分割
+  const nameParts = name.split('\n');
+
   return (
     <Link
       href="/"
       aria-label="Home page"
       className="text-xl font-extrabold tracking-tighter text-slate-900"
     >
-      {name}
+      {nameParts.map((part, index) => (
+        <React.Fragment key={index}>
+          {part}
+          {index < nameParts.length - 1 && <br />}
+        </React.Fragment>
+      ))}
     </Link>
   );
 }
