@@ -10,23 +10,19 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
-
-    "@prismicio/client": "^7.19.0",
+    "@prismicio/client": "^7.3.1",
     "@prismicio/next": "^1.5.0",
-
-    "@prismicio/react": "^2.9.2",
-    "@react-three/drei": "^9.122.0",
-
-    "@react-three/fiber": "^8.18.0",
+    "@prismicio/react": "^2.7.3",
+    "@react-three/drei": "^9.89.0",
+    "@react-three/fiber": "^8.15.11",
     "@types/three": "^0.158.3",
-
     "clsx": "^2.0.0",
-    "gsap": "^3.13.0",
-    "next": "14.2.30",
-    "react": "^18",
-    "react-dom": "^18.3.1",
+    "gsap": "^3.12.2",
+    "next": "14.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18",
     "react-icons": "^4.12.0",
-    "three": "^0.178.0"
+    "three": "^0.158.0"
   },
   "devDependencies": {
     "@slicemachine/adapter-next": "^0.3.27",
