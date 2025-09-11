@@ -10,13 +10,13 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
-    "@prismicio/client": "^7.20.1",
-    "@prismicio/next": "^1.5.0",
+    "@prismicio/client": "^7.20.0",
+    "@prismicio/next": "^1.7.2",
     "@prismicio/react": "^2.9.2",
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
     "@types/three": "^0.158.3",
-    "clsx": "^2.1.1",
+    "clsx": "^2.0.0",
     "gsap": "^3.13.0",
     "next": "14.2.32",
     "react": "^18.3.1",
